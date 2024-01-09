@@ -3,7 +3,7 @@ terraform {
 
   backend "s3" {
     key    = "github-actions-cicd/terraform.tfstate" # the directory/file.tfstate
-    bucket = "ADD_YOUR_BUCKET_NAME_HERE"             # the bucket
-    region = "ADD_YOUR_REGION_NAME_HERE"             # the region
+    bucket = "github-actions-cicd-infra-0406-bucket"             # the bucket
+    region = "us-east-1"             # the region
   }
 }
